@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="3"
+    >
+
+        <View
+            android:layout_width="@dimen/gradient_control_width"
+            android:layout_height="@dimen/gradient_control_height"
+            android:background="@drawable/ic_arrow_rb_lt"
+            />
+
+        <View
+            android:layout_width="@dimen/gradient_control_width"
+            android:layout_height="@dimen/gradient_control_height"
+            android:background="@drawable/ic_arrow_bottom_top"
+            />
+
+        <View
+            android:layout_width="@dimen/gradient_control_width"
+            android:layout_height="@dimen/gradient_control_height"
+            android:background="@drawable/ic_arrow_lb_rt"
+            />
+
+        <View
+            android:layout_width="@dimen/gradient_control_width"
+            android:layout_height="@dimen/gradient_control_height"
+            android:background="@drawable/ic_arrow_right_left"
+            />
+
+        <View
+            android:layout_width="@dimen/gradient_control_width"
+            android:layout_height="@dimen/gradient_control_height"
+            android:background="@drawable/ic_arrows_from_center"
+            />
+
+        <View
+            android:layout_width="@dimen/gradient_control_width"
+            android:layout_height="@dimen/gradient_control_height"
+            android:background="@drawable/ic_arrow_left_right"
+            />
+
+        <View
+            android:layout_width="@dimen/gradient_control_width"
+            android:layout_height="@dimen/gradient_control_height"
+            android:background="@drawable/ic_arrow_rt_lb"
+            />
+
+        <View
+            android:layout_width="@dimen/gradient_control_width"
+            android:layout_height="@dimen/gradient_control_height"
+            android:background="@drawable/ic_arrow_top_bottom"
+            />
+
+        <View
+            android:layout_width="@dimen/gradient_control_width"
+            android:layout_height="@dimen/gradient_control_height"
+            android:background="@drawable/ic_arrow_lt_rb"
+            />
+
+</GridLayout>

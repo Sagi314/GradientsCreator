@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sbmgames.gradientscreator.customviews.colorslistadapter.OvalColorView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/ovalColorView"
+
+    android:layout_width="@dimen/color_circle_diameter"
+    android:layout_height="@dimen/color_circle_diameter"
+    app:stroke_width="@dimen/color_circle_stroke_width"
+/>

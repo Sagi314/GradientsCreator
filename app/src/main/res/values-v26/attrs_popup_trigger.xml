@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SeekBarPopup">
+        <!--    api 26+    -->
+        <attr name="minProgress" format="integer"/>
+    </declare-styleable>
+</resources>

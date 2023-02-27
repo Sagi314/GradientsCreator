@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color1">#2E2E2E</color>
+    <color name="color2">#0057E7</color>
+    <integer-array name="defaultGradientColors">
+        <item>@color/color1</item>
+        <item>@color/color2</item>
+    </integer-array>
+</resources>

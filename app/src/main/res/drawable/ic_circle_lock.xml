@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ic_circle_with_stroke_simple"/>
+
+    <item>
+        <vector
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="24"
+            android:viewportHeight="24">
+
+            <path
+                android:fillColor="@color/primary"
+                android:fillAlpha="0.4"
+
+                android:strokeColor="@color/primary"
+                android:strokeWidth="1"
+                android:strokeLineJoin="round"
+                android:strokeLineCap="round"
+
+                android:pathData="M6,18.5 L18,18.5 18,11.5 6,11.5 6,18.5"
+                />
+
+            <path
+                android:strokeColor="@color/primary"
+                android:strokeWidth="1"
+                android:strokeLineJoin="round"
+                android:strokeLineCap="round"
+
+                android:pathData="M7.5,11.5 L7.5,9.5
+                                  A4.5,4.5, 0 1,1 16.5,9.5
+                                  L16.5,11.5"
+                />
+
+        </vector>
+    </item>
+
+</layer-list>

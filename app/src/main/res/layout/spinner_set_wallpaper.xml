@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="@dimen/ok_button_width"
+        android:layout_height="@dimen/ok_button_height"
+        android:background="@drawable/ic_circle_ok"
+        android:backgroundTint="@color/success"
+        android:backgroundTintMode="multiply"
+        />
+
+    <View
+        android:layout_width="@dimen/ok_button_width"
+        android:layout_height="@dimen/ok_button_height"
+        android:background="@drawable/ic_circle_home"
+        />
+
+    <View
+        android:layout_width="@dimen/ok_button_width"
+        android:layout_height="@dimen/ok_button_height"
+        android:background="@drawable/ic_circle_lock"
+        />
+</LinearLayout>

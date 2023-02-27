@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_card"
+    android:backgroundTint="@color/light_gray"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5pt">
+
+        <com.sbmgames.roundcolorpicker.RoundColorPicker
+            android:id="@+id/colorPicker"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5pt"
+            app:layout_constraintTop_toBottomOf="@+id/colorPicker">
+
+            <View
+                android:id="@+id/cancelButton"
+
+                android:layout_width="@dimen/cancel_button_width"
+                android:layout_height="@dimen/cancel_button_height"
+
+                android:layout_alignParentLeft="true"
+
+                android:background="@drawable/ic_circle_cancel"
+                android:backgroundTint="@color/danger"
+                android:backgroundTintMode="multiply"
+                />
+
+            <com.sbmgames.gradientscreator.customviews.widthbylettersedittext.WidthByLettersEditText
+                android:id="@+id/hexadecimalColorCode"
+
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/ok_button_height"
+
+                android:layout_centerHorizontal="true"
+
+                android:gravity="center"
+                android:textColor="@color/primary"
+                android:inputType="textNoSuggestions"
+                app:letters_count="6"
+                app:calculate_by_letter="A"
+
+                android:backgroundTint="@color/primary"
+                />
+
+            <View
+                android:id="@+id/okButton"
+
+                android:layout_width="@dimen/ok_button_width"
+                android:layout_height="@dimen/ok_button_height"
+
+                android:layout_alignParentRight="true"
+
+                android:background="@drawable/ic_circle_ok"
+                android:backgroundTint="@color/success"
+                android:backgroundTintMode="multiply"
+                />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

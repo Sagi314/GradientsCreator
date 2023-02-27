@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.mainactivity.MainActivity"
+
+    android:id="@+id/layout"
+    android:padding="5pt"
+    >
+
+    <com.sbmgames.gradientscreator.customviews.gradientdrawablepicker.GradientDrawablePicker
+        android:id="@+id/gradient_drawable_picker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:applyDrawableAsBackground="false"
+        app:minimumColors="1"
+        app:minItemDeletionError="@string/cant_delete_color"
+        app:defaultColors="@array/defaultGradientColors"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        >
+
+
+<!--        <View-->
+<!--            android:id="@+id/save_as_draft_button"-->
+<!--            android:layout_width="@dimen/save_button_width"-->
+<!--            android:layout_height="@dimen/save_button_height"-->
+<!--    -->
+<!--            android:background="@drawable/circle_save"-->
+<!--        />-->
+
+<!--        <Space-->
+<!--            android:layout_width="@dimen/color_circle_margin"-->
+<!--            android:layout_height="0dp"-->
+<!--            />-->
+
+        <View
+            android:id="@+id/save_to_Files_button"
+            android:layout_width="@dimen/save_button_width"
+            android:layout_height="@dimen/save_button_height"
+
+            android:background="@drawable/ic_circle_download"
+            />
+
+        <Space
+            android:layout_width="@dimen/save_button_margin"
+            android:layout_height="0dp"
+            />
+
+        <com.sbmgames.gradientscreator.customviews.popups.spinners.multiselectionspinner.MultiSelectionSpinner
+            android:id="@+id/save_as_wallpaper_spinner"
+            android:layout_width="@dimen/save_button_width"
+            android:layout_height="@dimen/save_button_height"
+
+            android:background="@drawable/ic_circle_wallpaper"
+            app:popupView="@layout/spinner_set_wallpaper"
+            app:popupLocation="up"
+            app:okButtonIndex="0"
+        />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

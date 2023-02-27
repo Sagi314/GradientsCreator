@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GradientsCreator</string>
+    <string name="cant_delete_color">Color cannot be removed, at least one color is required.</string>
+</resources>

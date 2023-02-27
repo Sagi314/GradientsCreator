@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="color_circle_diameter">20pt</dimen>
+    <dimen name="color_circle_stroke_width">1pt</dimen>
+    <dimen name="color_circle_margin">10pt</dimen>
+
+    <dimen name="gradient_control_width">20pt</dimen>
+    <dimen name="gradient_control_height">20pt</dimen>
+    <dimen name="gradient_control_margin">10pt</dimen>
+
+    <dimen name="cancel_button_width">30pt</dimen>
+    <dimen name="cancel_button_height">30pt</dimen>
+
+    <dimen name="ok_button_width">30pt</dimen>
+    <dimen name="ok_button_height">30pt</dimen>
+
+    <dimen name="save_button_width">30pt</dimen>
+    <dimen name="save_button_height">30pt</dimen>
+    <dimen name="save_button_margin">15pt</dimen>
+
+    <dimen name="circle_with_stroke_simple_stroke_width">1pt</dimen>
+
+    <style name="Theme.AppCompat.NoActionBar.TransparentStatusBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">#00000000</item>
+    </style>
+
+</resources>

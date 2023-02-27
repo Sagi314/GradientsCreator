@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OvalColorView">
+        <attr name="stroke_width" format="dimension" />
+        <attr name="fill_color" format="color" />
+        <attr name="stroke_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorsListView">
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="WidthByLettersEditText">
+        <attr name="calculate_by_letter" format="string" />
+        <attr name="letters_count" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="GradientDrawablePicker">
+        <attr name="restoreState" format="boolean" />
+        <attr name="minimumColors" format="integer" />
+        <attr name="maximumColors" format="integer" />
+        <attr name="applyDrawableAsBackground" format="boolean" />
+        <attr name="minItemDeletionError" format="string" />
+        <attr name="maxItemAdditionError" format="string" />
+        <attr name="defaultColors" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="@dimen/gradient_control_width"
+        android:layout_height="@dimen/gradient_control_height"
+        android:background="@drawable/ic_circle_gradient_linear"
+        />
+
+    <View
+        android:layout_width="@dimen/gradient_control_width"
+        android:layout_height="@dimen/gradient_control_height"
+        android:background="@drawable/ic_circle_gradient_radial"
+        />
+
+    <View
+        android:layout_width="@dimen/gradient_control_width"
+        android:layout_height="@dimen/gradient_control_height"
+        android:background="@drawable/ic_circle_gradient_sweep"
+        />
+
+</LinearLayout>
