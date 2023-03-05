@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.sbmgames.gradientscreator'
+    namespace 'com.sagi314.gradientscreator'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.sbmgames.gradientscreator"
+        applicationId "com.sagi314.gradientscreator"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -39,5 +39,5 @@ dependencies {
 
     //my implementations:
     //from jitpack:
-    implementation 'com.github.Sagi-314:round-color-picker:1.0'
+    implementation 'com.github.Sagi314:RoundColorPicker:1.0'
 }

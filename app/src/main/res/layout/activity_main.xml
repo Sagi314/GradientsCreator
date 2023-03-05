@@ -10,7 +10,7 @@
     android:padding="5pt"
     >
 
-    <com.sbmgames.gradientscreator.customviews.gradientdrawablepicker.GradientDrawablePicker
+    <com.sagi314.gradientscreator.customviews.gradientdrawablepicker.GradientDrawablePicker
         android:id="@+id/gradient_drawable_picker"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -56,7 +56,7 @@
             android:layout_height="0dp"
             />
 
-        <com.sbmgames.gradientscreator.customviews.popups.spinners.multiselectionspinner.MultiSelectionSpinner
+        <com.sagi314.gradientscreator.customviews.popups.spinners.multiselectionspinner.MultiSelectionSpinner
             android:id="@+id/save_as_wallpaper_spinner"
             android:layout_width="@dimen/save_button_width"
             android:layout_height="@dimen/save_button_height"

@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:padding="5pt">
 
-        <com.sbmgames.roundcolorpicker.RoundColorPicker
+        <com.sagi314.roundcolorpicker.RoundColorPicker
             android:id="@+id/colorPicker"
 
             android:layout_width="match_parent"
@@ -47,7 +47,7 @@
                 android:backgroundTintMode="multiply"
                 />
 
-            <com.sbmgames.gradientscreator.customviews.widthbylettersedittext.WidthByLettersEditText
+            <com.sagi314.gradientscreator.customviews.widthbylettersedittext.WidthByLettersEditText
                 android:id="@+id/hexadecimalColorCode"
 
                 android:layout_width="wrap_content"

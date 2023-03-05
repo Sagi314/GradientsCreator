@@ -56,7 +56,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         >
 
-        <com.sbmgames.gradientscreator.customviews.popups.spinners.sbmspinner.SbmSpinner
+        <com.sagi314.gradientscreator.customviews.popups.spinners.sbmspinner.SbmSpinner
             android:id="@+id/gradient_types_spinner"
             android:layout_width="@dimen/gradient_control_width"
             android:layout_height="@dimen/gradient_control_width"
@@ -66,7 +66,7 @@
             app:hideSelectedItem="true"
             />
 
-        <com.sbmgames.gradientscreator.customviews.popups.seekbarpopup.SeekBarPopup
+        <com.sagi314.gradientscreator.customviews.popups.seekbarpopup.SeekBarPopup
             android:id="@+id/gradientRadiusPopup"
             android:layout_width="@dimen/gradient_control_width"
             android:layout_height="@dimen/gradient_control_width"
@@ -87,7 +87,7 @@
             app:progress="100"
             />
 
-        <com.sbmgames.gradientscreator.customviews.popups.spinners.sbmspinner.SbmSpinner
+        <com.sagi314.gradientscreator.customviews.popups.spinners.sbmspinner.SbmSpinner
             android:id="@+id/gradient_directions_spinner"
             android:layout_width="@dimen/gradient_control_width"
             android:layout_height="@dimen/gradient_control_width"
