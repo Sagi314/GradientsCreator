@@ -20,7 +20,7 @@ GradientsCreator is a simple android application that allows users to create gra
 
 ## Usage
 
-To use GradientsCreator, follow these steps:
+To use GradientsCreator, follow these steps (on an Android device):
 
 1. To install the app, first download the APK file from [this link](https://drive.google.com/file/d/1e1210O5RyoXNLxjwcfhAYZvgKb3rBbmx/view?usp=sharing).
 2. Once the APK file has finished downloading, tap on it to begin the installation process. 
