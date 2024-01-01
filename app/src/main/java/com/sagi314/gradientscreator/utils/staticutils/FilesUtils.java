@@ -111,7 +111,7 @@ public final class FilesUtils
     public static File createDirectoryAndPathEvenIfFileExists(File parentDirectory, String directoryName)
     {
         Validators.requireNotNull(parentDirectory, "'parentDirectory' can't be null");
-        Validators.requireFolder(parentDirectory, "'parentDirectory' must be a directory but it is a regular file");
+        Validators.requireNotFile(parentDirectory, "'parentDirectory' can't be a file");
 
         Validators.illegalNullOrBlank(directoryName, "'directoryName' can't be null or blank");
 
