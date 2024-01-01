@@ -81,10 +81,9 @@ public class MainActivity extends AppCompatActivity
 
     private void initSaveToFilesViewHandler()
     {
-        var deviceImagesFolder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM);
-        var gradientsFolder = new File(deviceImagesFolder, DIRECTORY_NAME_GRADIENTS_CREATOR_IMAGES);
+        var deviceImagesFolder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
 
-        new SaveToFilesButtonViewHandler(gradientsFolder);
+        new SaveToFilesButtonViewHandler(deviceImagesFolder);
     }
     //endregion
 
