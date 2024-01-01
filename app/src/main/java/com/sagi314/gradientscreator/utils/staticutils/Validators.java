@@ -174,6 +174,21 @@ public final class Validators
 
         return hopefullyFolder;
     }
+
+    public static File requireNotFile(File hopefullyFolder, String errorMessage)
+    {
+        if (hopefullyFolder == null)
+        {
+            throw new IllegalArgumentException("'hopefullyFolder' cannot be null");
+        }
+
+        if (hopefullyFolder.isFile())
+        {
+            throw new IllegalArgumentException(errorMessage);
+        }
+
+        return hopefullyFolder;
+    }
     //endregion
 
     //region Strings only
