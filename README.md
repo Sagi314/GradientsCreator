@@ -30,25 +30,25 @@ To use GradientsCreator, follow these steps (on an Android device):
 
 ## Screenshots
 <div>
-    <img src="https://user-images.githubusercontent.com/42316417/224636517-363cc184-2da2-47a2-b7b8-e1dbcd698447.jpg" alt="image" width="20%">
+    <img src="https://github.com/Sagi314/GradientsCreator/assets/42316417/f9add7a7-501d-4b58-9959-7b0fb1961dfd" alt="image" width="20%">
     &nbsp;
-    <img src="https://user-images.githubusercontent.com/42316417/224636486-0f13f9ca-a4d0-4470-ad40-8ff2cac1eb43.jpg" alt="image" width="20%">
+    <img src="https://github.com/Sagi314/GradientsCreator/assets/42316417/518e1228-7e42-4541-90b5-9d9e6c086726" alt="image" width="20%">
     &nbsp;
-    <img src="https://user-images.githubusercontent.com/42316417/224636502-b1830e65-22b5-4acc-94ff-49e1ec2b763c.jpg" alt="image" width="20%">
+    <img src="https://github.com/Sagi314/GradientsCreator/assets/42316417/90fedc47-f434-4f5a-a8bf-808a6e5c528a" alt="image" width="20%">
 </div>
 &nbsp;
 <div>
-    <img src="https://user-images.githubusercontent.com/42316417/224635137-8a012b72-4c11-4124-af85-03a53adf29df.jpg" alt="image" width="20%">
+    <img src="https://github.com/Sagi314/GradientsCreator/assets/42316417/59c2041f-dee1-4d87-9122-17f95442ba45" alt="image" width="20%">
     &nbsp;
-    <img src="https://user-images.githubusercontent.com/42316417/224635149-03445fc4-9ed6-4126-82b8-6649a3b1f172.jpg" alt="image" width="20%">
+    <img src="https://github.com/Sagi314/GradientsCreator/assets/42316417/fbefffc4-45f1-4612-9a78-a902a3abace7" alt="image" width="20%">
     &nbsp;
-    <img src="https://user-images.githubusercontent.com/42316417/224635123-c0c83f1f-5390-4c7e-a2d3-382aa66aff1f.jpg" alt="image" width="20%">
+    <img src="https://github.com/Sagi314/GradientsCreator/assets/42316417/0e8d89dd-a9eb-4409-9825-f0574bafeabc" alt="image" width="20%">
 </div>
 &nbsp;
 <div>
-    <img src="https://user-images.githubusercontent.com/42316417/224641085-71131c07-02b4-4ef9-afef-be02920db626.jpg" alt="image" width="20%">
+    <img src="https://github.com/Sagi314/GradientsCreator/assets/42316417/1545e096-2b54-4b2e-94ea-a1a1d516d470" alt="image" width="20%">
     &nbsp;
-    <img src="https://user-images.githubusercontent.com/42316417/224641102-858403db-0b6d-470b-b34e-dfbe4db19bbb.jpg" alt="image" width="20%">
+    <img src="https://github.com/Sagi314/GradientsCreator/assets/42316417/dfd30491-bdf9-447a-a260-9cb222af83e7" alt="image" width="20%">
     &nbsp;
-    <img src="https://user-images.githubusercontent.com/42316417/224644882-65439243-7cc1-44b9-be3e-6826ec19ba30.jpg" alt="image" width="20%">
+    <img src="https://github.com/Sagi314/GradientsCreator/assets/42316417/6e26aaec-8cfa-4642-8605-1e3a8d2c7f2e" alt="image" width="20%">
 </div>
